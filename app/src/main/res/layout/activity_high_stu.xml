@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutUnversity.High_stu">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="95dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/imgg"
+        android:layout_margin="20dp"
+        android:src="@drawable/uv"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/imgg"
+        android:text=" جامعة المنيا"
+        android:textSize="25sp"
+        android:id="@+id/textt"
+        android:background="@drawable/button_bg"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+
+        />
+
+            <Button
+                android:id="@+id/high_se1"
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="45dp"
+                android:background="@drawable/button_bg"
+                android:text="التقدم للدراسات العليا"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textt"
+
+
+                />
+
+            <Button
+                android:id="@+id/high_se2"
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="45dp"
+                android:background="@drawable/button_bg"
+                android:text="اخبار الدراسات العليا"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                app:layout_constraintStart_toEndOf="@id/high_se1"
+                app:layout_constraintTop_toBottomOf="@id/textt"
+                android:layout_marginEnd="15dp"
+
+
+                />
+
+
+            <Button
+                android:id="@+id/high_se4"
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:background="@drawable/button_bg"
+                android:layout_marginStart="15dp"
+                android:text="المقرارات الدراسية"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                app:layout_constraintTop_toBottomOf="@id/high_se2"
+                app:layout_constraintStart_toEndOf="@id/high_se3"
+                android:layout_marginEnd="15dp"
+
+                />
+
+            <Button
+                android:id="@+id/high_se3"
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="45dp"
+                android:background="@drawable/button_bg"
+                android:text="ابحاث"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/high_se1"
+                />
+
+
+
+            <Button
+                android:id="@+id/high_se5"
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="45dp"
+                android:background="@drawable/button_bg"
+                android:text="نائب القطاع"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/high_se3"
+
+
+                />
+
+            <Button
+                android:id="@+id/high_se6"
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/high_se4"
+                app:layout_constraintStart_toEndOf="@id/high_se5"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="45dp"
+                android:background="@drawable/button_bg"
+                android:text="بنك المعرفة"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:layout_marginEnd="15dp"
+
+
+
+                />
+
+            <Button
+                android:id="@+id/high_se7"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:background="@drawable/button_bg"
+                android:text="الاستعلام عن الرسائل"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/high_se5" />
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+

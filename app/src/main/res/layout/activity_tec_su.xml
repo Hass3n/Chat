@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutUnversity.Tec_su">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="95dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/imgg"
+        android:layout_margin="20dp"
+        android:src="@drawable/uv"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/imgg"
+        android:text=" خدمات اعضاء هيئة التدريس  "
+        android:textSize="25sp"
+        android:id="@+id/textt"
+        android:background="@drawable/button_bg"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+       android:layout_marginStart="40dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center"
+
+        />
+
+    <Button
+        android:id="@+id/tec_se1"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+    
+        android:layout_marginTop="28dp"
+        android:background="@drawable/button_bg"
+        android:text="ابحاث الجامعة علي Gs"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+
+
+        app:layout_constraintTop_toBottomOf="@id/textt" />
+
+    <Button
+        android:id="@+id/tec_se8"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_bg"
+        android:text="مركز تنمية قدرات هيئة التدريس"
+        android:textColor="@color/white"
+
+
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@id/tec_se7"
+        app:layout_constraintTop_toBottomOf="@id/tec_se6" />
+
+    <Button
+        android:id="@+id/tec_se5"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+    
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_bg"
+        android:text="الاقسام العلمية"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+
+
+        app:layout_constraintTop_toBottomOf="@id/tec_se3" />
+
+    <Button
+        android:id="@+id/tec_se4"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_bg"
+        android:text="البريد الالكتروني"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@id/tec_se3"
+
+
+        app:layout_constraintTop_toBottomOf="@id/tec_se2" />
+
+    <Button
+        android:id="@+id/tec_se7"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+    
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_bg"
+        android:text="اسئلة شائعة"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+
+
+        app:layout_constraintTop_toBottomOf="@id/tec_se5" />
+
+    <Button
+        android:id="@+id/tec_se9"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/button_bg"
+        android:gravity="center"
+        android:text="البريد الالكترونى لقيادات الجامعة"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tec_se7" />
+
+    <Button
+        android:id="@+id/tec_se3"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+    
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_bg"
+        android:text="موقع اعضاءالتدريس"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@id/tec_se1" />
+
+    <Button
+        android:id="@+id/tec_se6"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_bg"
+        android:text=" البحث عن عضو"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@id/tec_se5"
+
+        app:layout_constraintTop_toBottomOf="@id/tec_se4" />
+
+    <Button
+        android:id="@+id/tec_se2"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/button_bg"
+        android:text="ابحاث الجامعة علي RG"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@id/tec_se1"
+
+        app:layout_constraintTop_toBottomOf="@id/textt" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

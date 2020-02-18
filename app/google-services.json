@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "874741725471",
+    "firebase_url": "https://chatapp-5959d.firebaseio.com",
+    "project_id": "chatapp-5959d",
+    "storage_bucket": "chatapp-5959d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874741725471:android:5c5030d0734f307a60582a",
+        "android_client_info": {
+          "package_name": "minia.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874741725471-vm7j014aloq1fg046sugq8fhnahbghdg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "minia.chatapp",
+            "certificate_hash": "a2e709243ecece5208eb158d9f1ad1b32e91257c"
+          }
+        },
+        {
+          "client_id": "874741725471-l3m7fkflo8f28sb78co5ncb6li78kqgr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj9tsN3bI53BvbTvKREGeH0oxRmCrn7uE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874741725471-l3m7fkflo8f28sb78co5ncb6li78kqgr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

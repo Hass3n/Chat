@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".aboutUnversity.student_su">
+<ImageView
+    android:layout_width="0dp"
+    android:layout_height="95dp"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:id="@+id/imgg"
+    android:layout_margin="20dp"
+    android:src="@drawable/uv"
+
+    />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toBottomOf="@id/imgg"
+    android:text="خدمات الطلاب - جامعة المنيا"
+    android:textSize="25sp"
+    android:id="@+id/textt"
+   android:layout_marginStart="40dp"
+    android:layout_marginEnd="15dp"
+    android:background="@drawable/button_bg"
+    android:textColor="@color/white"
+    app:layout_constraintStart_toStartOf="parent"
+    android:gravity="center"
+
+
+    />
+
+
+<Button
+    android:id="@+id/std_se1"
+    android:layout_width="155dp"
+    android:layout_height="wrap_content"
+ android:layout_marginStart="40dp"
+     android:layout_marginTop="49dp"
+    android:background="@drawable/button_bg"
+    android:text="نتائج الطلاب"
+    android:textColor="@color/white"
+    android:textSize="15sp"
+    app:layout_constraintStart_toStartOf="parent"
+
+
+    app:layout_constraintTop_toBottomOf="@id/imgg"
+    tools:ignore="RtlCompat" />
+
+<Button
+    android:id="@+id/std_se2"
+    android:layout_width="155dp"
+    android:layout_height="wrap_content"
+   android:layout_marginStart="15dp"
+
+     android:layout_marginTop="49dp"
+    android:background="@drawable/button_bg"
+    android:text="الجداول الدراسية"
+    android:textColor="@color/white"
+    android:textSize="15sp"
+
+    app:layout_constraintStart_toEndOf="@id/std_se1"
+    app:layout_constraintTop_toBottomOf="@id/imgg" />
+
+<Button
+    android:id="@+id/std_se3"
+    android:layout_width="155dp"
+    android:layout_height="wrap_content"
+ android:layout_marginStart="40dp"
+    android:layout_marginLeft="36dp"
+    android:layout_marginTop="15dp"
+    android:background="@drawable/button_bg"
+    android:text="قطاع شئون الطلاب"
+    android:textColor="@color/white"
+    android:textSize="15sp"
+    app:layout_constraintStart_toStartOf="parent"
+
+    app:layout_constraintTop_toBottomOf="@id/std_se1" />
+
+<Button
+    android:id="@+id/std_se4"
+    android:layout_width="155dp"
+    android:layout_height="wrap_content"
+   android:layout_marginStart="15dp"
+
+    android:layout_marginTop="15dp"
+    android:background="@drawable/button_bg"
+    android:text="دليل الطلاب"
+    android:textColor="@color/white"
+    android:textSize="15sp"
+    app:layout_constraintStart_toEndOf="@id/std_se3"
+
+
+    app:layout_constraintTop_toBottomOf="@id/std_se1" />
+
+<Button
+    android:id="@+id/std_se5"
+    android:layout_width="155dp"
+    android:layout_height="wrap_content"
+ android:layout_marginStart="40dp"
+    android:layout_marginLeft="36dp"
+     android:layout_marginTop="15dp"
+    android:background="@drawable/button_bg"
+    android:text="برامج الجامعة"
+    android:textColor="@color/white"
+    android:textSize="15sp"
+    app:layout_constraintStart_toStartOf="parent"
+
+    app:layout_constraintTop_toBottomOf="@id/std_se3" />
+
+  <Button
+      android:id="@+id/std_se6"
+      android:layout_width="155dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="15dp"
+      android:background="@drawable/button_bg"
+      android:text="بوابة المقرارات"
+      android:textColor="@color/white"
+      android:layout_marginTop="15dp"
+      android:textSize="15sp"
+      app:layout_constraintTop_toBottomOf="@id/std_se4"
+      app:layout_constraintStart_toEndOf="@id/std_se3"
+
+      />
+<Button
+    android:id="@+id/std_se8"
+    android:layout_width="155dp"
+    android:layout_height="wrap_content"
+ android:layout_marginStart="40dp"
+    android:layout_marginLeft="36dp"
+     android:layout_marginTop="15dp"
+    android:background="@drawable/button_bg"
+    android:text="بوابة الخريجين "
+    android:textColor="@color/white"
+    android:textSize="15sp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/std_se5" />
+
+<Button
+    android:id="@+id/std_se9"
+    android:layout_width="155dp"
+    android:layout_height="wrap_content"
+   android:layout_marginStart="15dp"
+     android:layout_marginTop="15dp"
+    android:background="@drawable/button_bg"
+    android:text="ميثاق الطالب الجامعي"
+    android:textColor="@color/white"
+    android:textSize="15sp"
+    app:layout_constraintStart_toEndOf="@id/std_se8"
+
+    app:layout_constraintTop_toBottomOf="@id/std_se6" />
+
+<Button
+    android:id="@+id/std_se10"
+    android:layout_width="155dp"
+    android:layout_height="wrap_content"
+ android:layout_marginStart="40dp"
+    android:layout_marginLeft="36dp"
+    android:layout_marginTop="15dp"
+    android:background="@drawable/button_bg"
+    android:text="الامتحانات السابقة "
+    android:textColor="@color/white"
+    android:textSize="15sp"
+    app:layout_constraintStart_toStartOf="parent"
+
+
+    app:layout_constraintTop_toBottomOf="@id/std_se8" />
+
+<Button
+    android:id="@+id/std_se11"
+    android:layout_width="155dp"
+    android:layout_height="wrap_content"
+   android:layout_marginStart="15dp"
+
+    android:layout_marginTop="15dp"
+    android:background="@drawable/button_bg"
+    android:text="تقديم طلب الالتحاق للمدن الجامعية "
+    android:textColor="@color/white"
+    android:textSize="10sp"
+    app:layout_constraintStart_toEndOf="@id/std_se10"
+
+
+    app:layout_constraintTop_toBottomOf="@id/std_se9" />
+
+<Button
+    android:id="@+id/std_se12"
+    android:layout_width="155dp"
+    android:layout_height="wrap_content"
+ android:layout_marginStart="40dp"
+    android:layout_marginLeft="36dp"
+     android:layout_marginTop="15dp"
+    android:background="@drawable/button_bg"
+    android:text=" استخراج شهادة"
+    android:textColor="@color/white"
+    android:textSize="15sp"
+    app:layout_constraintStart_toStartOf="parent"
+
+
+    app:layout_constraintTop_toBottomOf="@id/std_se10" />
+
+<Button
+    android:id="@+id/std_se13"
+    android:layout_width="155dp"
+    android:layout_height="wrap_content"
+   android:layout_marginStart="15dp"
+
+     android:layout_marginTop="15dp"
+    android:background="@drawable/button_bg"
+    android:text="نماذج هامة   "
+    android:textColor="@color/white"
+    android:textSize="15sp"
+    app:layout_constraintStart_toEndOf="@id/std_se10"
+    app:layout_constraintTop_toBottomOf="@id/std_se10" />
+
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+

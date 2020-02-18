@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/action_home"
+        android:title="@string/action_home"
+        android:icon="@drawable/home"
+        />
+
+    <item android:id="@+id/action_chat"
+        android:title="@string/action_chat"
+        android:icon="@drawable/chat_room"
+        />
+    <item android:id="@+id/about_uv"
+        android:title="@string/about_uv"
+        android:icon="@drawable/chat_room"
+        />
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:icon="@drawable/settings"
+        />
+
+    <item android:id="@+id/action_about"
+        android:title="@string/action_about_us"
+        android:icon="@drawable/question"
+        />
+
+    <item android:id="@+id/action_logout"
+        android:title="@string/action_logout"
+        android:icon="@drawable/logout"
+        />
+
+</menu>
