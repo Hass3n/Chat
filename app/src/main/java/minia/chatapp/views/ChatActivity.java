@@ -93,7 +93,7 @@ public class ChatActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat);
-        mChatAddButton = (ImageButton)findViewById(R.id.chatAddimage);
+        mChatAddButton = (ImageButton)findViewById(R.id.chatAddimagee);
         mChatSendButton = (ImageButton)findViewById(R.id.chatSendButton);
         mMessageView = (EditText)findViewById(R.id.chatMessageView);
 

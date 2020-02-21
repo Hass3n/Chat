@@ -4,6 +4,7 @@ public class Message {
 
     private String key;
     private String content;
+    private  String imageUrl;
     private String roomId;
     private String type;
     private long createdAt;
@@ -68,4 +69,11 @@ public class Message {
         this.employee = employee;
     }
 
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
 }

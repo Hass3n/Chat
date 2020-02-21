@@ -1,5 +1,6 @@
 package minia.chatapp.adapters
 
+import android.content.Context
 import android.content.Context.MODE_PRIVATE
 import android.graphics.Color
 import android.graphics.PorterDuff
@@ -24,7 +25,7 @@ import minia.chatapp.R
 import minia.chatapp.models.Message
 
 
-class MessageAdapter(val list: ArrayList<Message>) :
+class MessageAdapter(val context: Context, val list: ArrayList<Message>) :
     RecyclerView.Adapter<MessageAdapter.ViewHolder>() {
 
     class ViewHolder(val b: View) : RecyclerView.ViewHolder(b){
@@ -34,6 +35,7 @@ class MessageAdapter(val list: ArrayList<Message>) :
         val triangle = b.findViewById<ImageView>(R.id.triangle)
         val message = b.findViewById<TextView>(R.id.message)
         val avatar = b.findViewById<CircleImageView>(R.id.avatar)
+        val fileImage = b.findViewById<ImageView>(R.id.imageView)
 
     }
 
@@ -58,7 +60,14 @@ class MessageAdapter(val list: ArrayList<Message>) :
                 val df = SimpleDateFormat("MMM d, hh:mm a", Locale("en"))
                 time.text = df.format(Date(item.createdAt))
 
-                message.text = item.content
+                if(item.content == "photo"){
+                    fileImage.visibility = View.VISIBLE
+                    message.visibility = View.GONE
+                    Picasso.with(context).load(item.imageUrl).into(fileImage)
+                }else{
+                    message.text = item.content
+                }
+
 
                 val ava = when {
                     !item.user!!.image.isNullOrBlank() -> item.user!!.image
@@ -102,7 +111,13 @@ class MessageAdapter(val list: ArrayList<Message>) :
                 val df = SimpleDateFormat("MMM d, hh:mm a", Locale("en"))
                 time.text = df.format(Date(item.createdAt ))
 
-                message.text = item.content
+                if(item.content == "photo"){
+                    fileImage.visibility = View.VISIBLE
+                    message.visibility = View.GONE
+                    Picasso.with(context).load(item.imageUrl).into(fileImage)
+                }else{
+                    message.text = item.content
+                }
 
                 val ava = when {
                     !item.employee!!.image.isNullOrBlank() -> item.employee!!.image

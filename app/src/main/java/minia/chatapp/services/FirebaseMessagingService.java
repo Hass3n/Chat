@@ -43,6 +43,7 @@ public class FirebaseMessagingService extends com.google.firebase.messaging.Fire
                 final String empId = data.get("empId");
                 final String content = data.get("content");
                 final String type = data.get("type");
+                final String senderName = data.get("senderName");
 
 
                 //--CLICK ACTION IS PROVIDED---
@@ -75,7 +76,7 @@ public class FirebaseMessagingService extends com.google.firebase.messaging.Fire
                 Uri notificationSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
                 NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this, ADMIN_CHANNEL_ID)
                         .setSmallIcon(R.drawable.notify)
-                        .setContentTitle(getString(R.string.app_name))
+                        .setContentTitle(senderName)
                         .setContentText(content)
                         .setAutoCancel(true)
                         .setSound(notificationSoundUri)
