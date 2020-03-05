@@ -83,6 +83,7 @@ public class UserHomeActivity extends AppCompatActivity {
         viewPager.setAdapter(adapter);
     }
 
+
     private void initBottomNavicationBar() {
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override

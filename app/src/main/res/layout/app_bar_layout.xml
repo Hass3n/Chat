@@ -11,8 +11,8 @@
         android:layout_height="36dp"
         android:src="@drawable/user_img"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true
-"
+        android:layout_alignParentEnd="true"
+
         android:layout_margin="10dp"
         android:id="@+id/circleImageView" />
 

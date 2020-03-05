@@ -24,37 +24,14 @@
             android:name=".views.UserHomeActivity"
             android:theme="@style/AppTheme2" />
         <activity android:name=".views.TypeActivity" />
-        <activity android:name=".views.UserDetails" />
-        <activity android:name=".views.MainActivity" />
         <activity android:name=".views.SettingsActivity" />
-        <activity
-            android:name=".views.Main2Activity"
-            android:screenOrientation="portrait" />
         <activity
             android:name=".views.LoginActivity"
             android:theme="@style/AppTheme" />
         <activity
             android:name=".views.RegisterActivity"
             android:theme="@style/AppTheme" />
-        <activity
-            android:name=".views.SettingActivity"
-            android:theme="@style/AppTheme" />
-        <activity android:name=".views.StatusActivity" />
         <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
-        <activity android:name=".views.UserActivity" />
-        <activity
-            android:name=".views.ProfileActivity"
-            android:theme="@style/AppTheme">
-            <intent-filter>
-                <action android:name="com.example.singhkshitiz.letschat_TARGET_NOTIFICATION" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".views.ChatActivity"
-            android:parentActivityName=".views.Main2Activity"
-            android:screenOrientation="portrait" />
         <activity android:name=".views.SpinnerInfo" />
         <activity android:name=".views.SplashActivity">
             <intent-filter>

@@ -77,5 +77,6 @@
         app:itemTextColor="@color/bottom_nav_color"
         app:itemIconTint="@color/bottom_nav_color"
         app:menu="@menu/side_menu"
+
         />
 </androidx.drawerlayout.widget.DrawerLayout>
